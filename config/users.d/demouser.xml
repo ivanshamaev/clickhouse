@@ -1,0 +1,12 @@
+<clickhouse>
+    <users>
+      <demouser>
+          <profile>analytics</profile>
+            <networks>
+                  <ip>::/0</ip>
+            </networks>
+          <password_sha256_hex>...</password_sha256_hex>
+          <quota>analytics</quota>
+      </demouser>
+    </users>
+</clickhouse>
