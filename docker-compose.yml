@@ -8,6 +8,7 @@ services:
     ports:
       - 8123:8123
       - 9000:9000
-    volumes:
-      - ./config/config.d/config.xml:/etc/clickhouse-server/config.d/config.xml
-      - ./config/users.d/users.xml:/etc/clickhouse-server/users.d/users.xml
+#    volumes:
+#      - ./config/config.d/config.xml:/etc/clickhouse-server/config.d/config.xml
+#      - ./config/config.d/config.xml:/etc/clickhouse-server/config.d/docker_related_config.xml # option 2
+#      - ./config/users.d/users.xml:/etc/clickhouse-server/users.d/users.xml
